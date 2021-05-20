@@ -1,1 +1,34 @@
- 
+/* debuggs */
+
+.h_90{
+    height:90px;
+    background-color: whitesmoke;
+    
+}
+
+.bcc1{
+    background-color: blue;
+}
+
+.bcc2{
+    background-color: violet;
+}
+.bcc3{
+    background-color: yellow;
+}
+
+.h_150{
+    height: 150px;
+    background-color: aqua;
+}
+
+.h_200{
+    height:200px;
+    background-color: blueviolet;
+}
+
+.h_400{
+    height:400px;
+    background-color: coral;
+}
+
