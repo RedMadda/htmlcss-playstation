@@ -1,7 +1,9 @@
-*{
-    margin:0;
-    padding:0;
+.bcc_wrapper{
+    width:100%;
+    height: 400px;
+    background-color: slategray;
 }
+  
 /* debuggs */
 
 .h_90{
@@ -38,6 +40,11 @@
 
 .box{
     height: 150px;
+    width:100%;
+    border: 1px solid black;
+}
+.my_btn{
+    height: 20px;
     width:100%;
     border: 1px solid black;
 }
