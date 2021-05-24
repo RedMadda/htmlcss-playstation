@@ -1,9 +1,137 @@
+/* reusable */
+body{
+    font-family: 'Roboto', sans-serif ;
+}
+.mb_b{
+    margin-bottom: 5px solid blue;
+}
 .bcc_wrapper{
     width:100%;
     height: 400px;
     background-color: slategray;
 }
+
+.container-fluid{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.monthly_pic{
+    width:100%;
+    display:none;
+}
+
+
+/* section try it */
+#babyConsole{
+    width: 40%;
+    height: auto;
+}
+
+/* section gadgets */
+
+#gadgets .col-md-2{
+    border:1px solid grey;
+}
+#gadgets img{
+    width:150px;
+}
+
+/* section release */
+
+/* 
+#release{
+    background-color: black;
+} */
+
+/* section explore */
+#explore .explore_middle img{
+    width:100%;
+}
+
+#plus{
+    width:75%;
+}
+
+/* section sales */
+#sales img{
+    width:100%;
+}
+
+.subscribe_logo{
+    width:100%;
+}
+
+/* section social */
+#social img{
+    width:90%;
+}
+
+/* footer */
+ul{
+    
+}
+
+/* media queries */
+
+@media screen and ( max-width:576px) {
+
+    #babyConsole{
+        width:40%;
+    }
+  }
+
   
+@media screen and ( min-width:576px) {
+
+    .wrapper_babyConsole{
+    width:98vw;
+    }
+
+    #babyConsole{
+        width:95%;
+        position:relative;
+        right: 50%;
+    }
+
+}
+
+
+
+@media screen and ( min-width:768px) {
+
+    #new_play_intro {
+        margin-bottom:100px;
+    }
+
+   .my_absolute{
+       position:absolute;
+     }
+
+    .my_relative{
+        position:relative;
+        right: 100%;
+        bottom:100%;
+    }
+
+    #babyConsole{
+        width:75%;
+    }
+
+    .monthly_pic{
+        display:inline-block;
+    }
+    
+
+    
+
+}   
+
+
+
+
 /* debuggs */
 
 .h_90{
@@ -28,8 +156,8 @@
     background-color: aqua;
 }
 
-.h_200{
-    height:200px;
+.h_50{
+    height:50%;
     background-color: blueviolet;
 }
 
@@ -40,8 +168,13 @@
 
 .box{
     height: 150px;
-    width:100%;
+    width:99%;
     border: 1px solid black;
+}
+
+.box1{
+    width:200px;
+    border:1px solid red;
 }
 .my_btn{
     height: 20px;
