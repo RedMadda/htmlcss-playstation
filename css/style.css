@@ -70,8 +70,11 @@ body{
 }
 
 /* footer */
-ul{
-    
+#sie_img{
+    width:;
+}
+#sie{
+    font-size: xx-small;
 }
 
 /* media queries */
@@ -123,9 +126,6 @@ ul{
     .monthly_pic{
         display:inline-block;
     }
-    
-
-    
 
 }   
 
