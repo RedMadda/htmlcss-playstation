@@ -5,11 +5,6 @@ body{
 .mb_b{
     margin-bottom: 5px solid blue;
 }
-.bcc_wrapper{
-    width:100%;
-    height: 400px;
-    background-color: slategray;
-}
 
 .container-fluid{
     margin:0;
@@ -23,6 +18,12 @@ body{
     display:none;
 }
 
+.text_white{
+    color: #f2f7b5;
+}
+
+
+
 /* header */
 .h_55{
     height:55px;
@@ -31,6 +32,20 @@ body{
 
 .sonyLog{
     width:80%;
+}
+
+.navbar-custom {
+    height: 5vh;
+  }
+
+#jumbo{
+    background-image: url("../imgs/img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.h_400{
+    height:400px;
 }
 
 
@@ -80,9 +95,9 @@ body{
 }
 
 /* footer */
-#sie_img{
+/* #sie_img{
     width:;
-}
+} */
 #sie{
     font-size: xx-small;
 }
@@ -165,11 +180,6 @@ body{
 .h_50{
     height:50%;
     background-color: blueviolet;
-}
-
-.h_400{
-    height:400px;
-    background-color: coral;
 }
 
 .box{
