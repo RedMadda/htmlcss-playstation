@@ -72,9 +72,8 @@ body{
 
 
 /* section try it */
-#babyConsole{
-    width: 40%;
-    height: auto;
+#tryIt img{
+    width:100%;
 }
 
 /* section gadgets */
@@ -151,10 +150,6 @@ body{
 
 
 @media screen and ( min-width:768px) {
-
-    #new_play_intro {
-        margin-bottom:100px;
-    }
 
    .my_absolute{
        position:absolute;
