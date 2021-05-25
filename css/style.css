@@ -23,6 +23,16 @@ body{
     display:none;
 }
 
+/* header */
+.h_55{
+    height:55px;
+    background-color: black;  
+}
+
+.sonyLog{
+    width:80%;
+}
+
 
 /* section try it */
 #babyConsole{
@@ -134,11 +144,7 @@ body{
 
 /* debuggs */
 
-.h_90{
-    height:90px;
-    background-color: whitesmoke;
-    
-}
+
 
 .bcc1{
     background-color: blue;
@@ -153,7 +159,7 @@ body{
 
 .h_150{
     height: 150px;
-    background-color: aqua;
+   
 }
 
 .h_50{
