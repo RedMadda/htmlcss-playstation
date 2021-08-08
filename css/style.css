@@ -18,7 +18,7 @@ body{
     display:none;
 }
 
-.text_white{
+.text_yellow{
     color: #f2f7b5;
 }
 
@@ -26,188 +26,192 @@ body{
     color:blue;
 }
 
-
+* a{
+    color: black;
+}
 
 /* header */
-.h_55{
-    height:55px;
+
+.h_40{
+    height: 40px;
     background-color: black;  
 }
 
-.sonyLog{
-    width:80%;
+#header_black_logo{
+    width: 80px;
+}
+
+.lens{
+    height: 30px;
 }
 
 .navbar-custom {
-    height: 5vh;
-  }
+    height: 70px;
+}
 
-#jumbo{
-    background-image: url("../imgs/img/jumbo-bg.png");
-    background-repeat: no-repeat;
+#nav_logo{
+    height: 50px;
+    width: 50px;
+}
+
+#navbarSupportedContent ul a{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+#navbarSupportedContent ul a:hover{
+    color:#054074;
+}
+
+#navbarSupportedContent img.chevr_nav{
+    width: 10px;
+}
+
+#navbarSupportedContent img.chevr_nav.blue,
+#navbarSupportedContent ul a:hover img.chevr_nav.grey
+{
+    display: none;
+}
+
+#navbarSupportedContent ul a:hover img.chevr_nav.blue{
+    display: inline;
+    transform: rotate(180deg);
+}
+
+.dropdown-menu {
+    color: #054074;
+}
+
+.actions .lens:hover{
+    background-color: #2a567c;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* main */
+
+/* reusable */
+.game{
     height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; 
 }
 
-.h_400{
-    height:400px;
+
+/* section first_game */
+
+#first_game{
+    background-image: url("../imgs/img/jumbo-bg.png");   
 }
 
-/* section suggested */
+.ret_banner{
+    width: 100%;
+}
 
-#suggested img{
-    width:200px;
+/* section ads_cards */
+
+#ads_cards img{
+    width: 100%;
     border-radius: 15px;
 }
 
-#suggested img:hover{
-    width:205px;
-    border-radius: 15px;
+#ads_cards img:hover{
+    width:calc(100% + 5px);
+    cursor: pointer;
+    box-shadow: 3px 5px #88888894;
 }
 
-#suggested .container .row .first{
+#ads_cards .container .row div:first-child img{
     border: 2px solid blue;
-    padding: 7px;
+    padding: 2px;
     border-radius: 15px;
 }
 
+/* section hardware */
 
-/* section try it */
-#tryIt img{
+#hardware img:first-child{
+    width: 100%;
+}
+
+
+#gadgets div:not(.active) > img {
+    opacity: 0.3;
+}
+
+#gadgets  img:hover {
+    cursor: pointer;
+}
+
+
+/* section second game */
+#second_game{
+    background-image: url("../imgs/img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+#second_game img:first-child{
     width:100%;
 }
 
-/* section gadgets */
 
-#gadgets .col-md-2{
-    border:1px solid grey;
-}
-#gadgets img{
-    width:150px;
-}
-
-/* section release */
-
-/* 
-#release{
+/* section new_releases */
+#new_releases{
+    width: 100%;
     background-color: black;
-} */
-
-/* section explore */
-#explore .explore_middle img{
-    width:100%;
 }
 
-#plus{
-    width:75%;
+#new_releases * img{
+    width: 100%;
+    border-radius: 10px;
 }
 
-/* section sales */
-#sales img{
-    width:100%;
+/* section play_old */
+
+#play_old .btn{
+    width: 120px;
 }
 
-.subscribe_logo{
-    width:100%;
+/* section play_plus & play_now & sales*/
+#play_plus{
+    background-color: rgb(188, 183, 183);
 }
 
-/* section social */
-#social img{
-    width:90%;
+#play_plus * img,
+#play_now * img,
+#sales * img,
+#social * img
+{
+    width: 100%;
+}
+
+/* section play_now */
+
+#play_now{
+    background-color: #161C3B;
 }
 
 /* footer */
-/* #sie_img{
-    width:;
-} */
-#sie{
-    font-size: xx-small;
+footer{
+    background-color: #00439C;
 }
 
-/* media queries */
-
-@media screen and ( max-width:576px) {
-
-    #babyConsole{
-        width:40%;
-    }
-  }
-
-  
-@media screen and ( min-width:576px) {
-
-    .wrapper_babyConsole{
-    width:98vw;
-    }
-
-    #babyConsole{
-        width:95%;
-        position:relative;
-        right: 50%;
-    }
-
+footer * a {
+    color: white;
 }
 
-
-
-@media screen and ( min-width:768px) {
-
-   .my_absolute{
-       position:absolute;
-     }
-
-    .my_relative{
-        position:relative;
-        right: 100%;
-        bottom:100%;
-    }
-
-    #babyConsole{
-        width:75%;
-    }
-
-    .monthly_pic{
-        display:inline-block;
-    }
-
-}   
-
-
-
-
-/* debuggs */
-
-
-
-.bcc1{
-    background-color: blue;
+footer * a:hover {
+    color: rgb(212, 211, 211);
 }
 
-.bcc2{
-    background-color: violet;
-}
-.bcc3{
-    background-color: yellow;
+footer .footer_logo{
+    background-color: #00439C;
 }
 
-.h_150{
-    height: 150px;
-   
+footer .footer_logo img[alt="globe"]{
+    width: 15px;
 }
 
-.h_50{
-    height:50%;
-    background-color: blueviolet;
-}
-
-.box{
-    height: 150px;
-    width:99%;
-    border: 1px solid black;
-}
- 
-.my_btn{
-    height: 20px;
-    width:100%;
-    border: 1px solid black;
+footer #sie{
+    width: 120px;
 }
 
